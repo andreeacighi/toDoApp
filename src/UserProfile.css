@@ -1,0 +1,131 @@
+.userProfile {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .detail {
+    text-align: center;
+  }
+  .userProfile h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .userInfo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .userInfo p {
+    margin: 10px 0;
+  }
+  
+  .userInfo p span {
+    font-weight: bold;
+  }
+  
+  .notLoggedIn {
+    text-align: center;
+    color: #666;
+  }
+  
+  .loginLink {
+    color: #3680cf;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-pic {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile-pic-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-detail {
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+  }
+  
+  input[type="file"] {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+  
+
+  .password-form {
+    margin-bottom: 20px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .password-form input {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .password-form button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  .password-form button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .auth-link {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  

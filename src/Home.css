@@ -1,12 +1,6 @@
-/* App.css */
-.App {
-  text-align: center;
+.Home {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #f4f4f4;
 }
 
 .navbar {
@@ -21,10 +15,11 @@
   color: white;
   background-color: #61dafb;
   border: none;
-  padding: 10px 20px;
+  padding: 8px 16px;
   margin: 0 10px;
   cursor: pointer;
   border-radius: 5px;
+  width: 120px;
   transition: background-color 0.3s;
 }
 
@@ -35,40 +30,45 @@
 .title {
   color: #282c34;
   margin: 20px 0;
+  text-align: center;
 }
 
 .content {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 80%;
+  padding: 30px;
+  width: 100%;
   max-width: 600px;
+  margin: 20px auto;
 }
 
 .form {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #6e7d9a;
   margin-bottom: 20px;
 }
 
 .inputField {
   padding: 10px;
-  margin-right: 10px;
-  width: 60%;
+  margin-right: 5px;
+  width: 100%;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 .button {
-  padding: 10px 20px;
-  border: none;
+  margin-top: auto;
   background-color: #61dafb;
   color: white;
   cursor: pointer;
   border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
   transition: background-color 0.3s;
+  margin-top: 0%;
 }
 
 .button:hover {
@@ -83,7 +83,6 @@
 .notesList {
   margin-top: 20px;
 }
-
 .note {
   display: flex;
   justify-content: space-between;
@@ -91,24 +90,32 @@
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 10px;
 }
 
 .noteDescr {
+  margin: 0;
   font-size: 18px;
+  flex-grow: 1;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .noteButtons {
+  margin-left: 20px;
   display: flex;
+  align-items: center;
 }
 
 .editButton, .deleteButton {
   padding: 5px 10px;
   margin-left: 10px;
+  margin-right: 10px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  width: 150px;
+ margin-top: 0%;
   transition: background-color 0.3s;
 }
 
@@ -129,16 +136,33 @@
 .deleteButton:hover {
   background-color: #c82333;
 }
-
-.section-title {
-  font-size: 24px;
-  margin-bottom: 20px;
+.searchSection{
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0px auto;
 }
-
+.searchField {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 0px auto;
+  width: aut;
+}
+.section-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-par{
+  text-align: center;
+}
 .team-member {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .team-member-img {
@@ -162,27 +186,15 @@
   color: #666;
 }
 
-.section-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
 .subsection-title {
   font-size: 20px;
   margin-bottom: 10px;
-}
-
-.about-section {
-  margin-bottom: 30px;
-}
-
-.team-list {
-  list-style-type: square;
-  padding-left: 20px;
+  text-align: center;
 }
 
 .contact-form {
   margin-top: 30px;
+  text-align: center;
 }
 
 .contact-form input[type="text"] {
@@ -204,6 +216,7 @@
 
 .social-links {
   margin-top: 10px;
+  text-align: center;
 }
 
 .social-links a {
@@ -215,10 +228,5 @@
 
 .contact-info {
   margin-top: 30px;
-}
-.team-member {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
